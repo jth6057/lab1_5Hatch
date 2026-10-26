@@ -5,9 +5,10 @@
  * Course: CMPSC 221
  * Author: Tanner Hatch
  * Date Developed: 10/25/2026
- * Last Date Changed: 10/25/2026
- * Revision: 1.0
+ * Last Date Changed: 10/26/2026
+ * Revision: 2.0
  */
+
 public class Motorcycle {
     private String make;
     private String model;
@@ -19,9 +20,7 @@ public class Motorcycle {
     private Wheel rearWheel;
 
     // Sets all the motorcycle information.
-    public Motorcycle(String make, String model, int year,
-                      Color color, Engine engine, Frame frame,
-                      Wheel frontWheel, Wheel rearWheel) {
+    public Motorcycle(String make, String model, int year, Color color, Engine engine, Frame frame, Wheel frontWheel, Wheel rearWheel) {
         this.make = make;
         this.model = model;
         this.year = year;
@@ -98,9 +97,7 @@ public class Motorcycle {
     }
 
     // Changes the front wheel.
-    public void setFrontWheel(Wheel frontWheel) {
-        this.frontWheel = frontWheel;
-    }
+    public void setFrontWheel(Wheel frontWheel) {this.frontWheel = frontWheel;}
 
     // Returns the rear wheel.
     public Wheel getRearWheel() {

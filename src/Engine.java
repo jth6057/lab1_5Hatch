@@ -5,8 +5,8 @@
  * Course: CMPSC 221
  * Author: Tanner Hatch
  * Date Developed: 10/25/2026
- * Last Date Changed: 10/25/2026
- * Revision: 1.0
+ * Last Date Changed: 10/26/2026
+ * Revision: 2.0
  */
 
 public class Engine {
@@ -16,8 +16,7 @@ public class Engine {
     private String type;
 
     // Sets all the engine information.
-    public Engine(int displacementCC, int horsepower,
-                  int cylinders, String type) {
+    public Engine(int displacementCC, int horsepower, int cylinders, String type) {
         this.displacementCC = displacementCC;
         this.horsepower = horsepower;
         this.cylinders = cylinders;

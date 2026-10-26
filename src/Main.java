@@ -5,8 +5,8 @@
  * Course: CMPSC 221
  * Author: Tanner Hatch
  * Date Developed: 10/25/2026
- * Last Date Changed: 10/25/2026
- * Revision: 1.0
+ * Last Date Changed: 10/26/2026
+ * Revision: 2.0
  */
 
 public class Main {
@@ -80,21 +80,15 @@ public class Main {
         System.out.println("Color: " + bike.getColor().getName());
 
         System.out.println("\nEngine");
-        System.out.println("Displacement: "
-                + bike.getEngine().getDisplacementCC() + " cc");
-        System.out.println("Horsepower: "
-                + bike.getEngine().getHorsepower());
-        System.out.println("Cylinders: "
-                + bike.getEngine().getCylinders());
-        System.out.println("Type: "
-                + bike.getEngine().getType());
+        System.out.println("Displacement: " + bike.getEngine().getDisplacementCC() + " cc");
+        System.out.println("Horsepower: " + bike.getEngine().getHorsepower());
+        System.out.println("Cylinders: " + bike.getEngine().getCylinders());
+        System.out.println("Type: " + bike.getEngine().getType());
 
         System.out.println("\nFrame");
         System.out.println("Type: " + bike.getFrame().getType());
-        System.out.println("Material: "
-                + bike.getFrame().getMaterial().getName());
-        System.out.println("Material properties: "
-                + bike.getFrame().getMaterial().getProperties());
+        System.out.println("Material: " + bike.getFrame().getMaterial().getName());
+        System.out.println("Material properties: " + bike.getFrame().getMaterial().getProperties());
 
         System.out.println("\nFront Wheel");
         printWheel(bike.getFrontWheel());
@@ -108,13 +102,9 @@ public class Main {
     // Prints the wheel and rim information.
     public static void printWheel(Wheel wheel) {
         System.out.println("Tire type: " + wheel.getTireType());
-        System.out.println("Rim diameter: "
-                + wheel.getRims().getDiameterInches() + " inches");
-        System.out.println("Rim material: "
-                + wheel.getRims().getMaterial().getName());
-        System.out.println("Rim material properties: "
-                + wheel.getRims().getMaterial().getProperties());
-        System.out.println("Rim color: "
-                + wheel.getRims().getColor().getName());
+        System.out.println("Rim diameter: " + wheel.getRims().getDiameterInches() + " inches");
+        System.out.println("Rim material: " + wheel.getRims().getMaterial().getName());
+        System.out.println("Rim material properties: " + wheel.getRims().getMaterial().getProperties());
+        System.out.println("Rim color: " + wheel.getRims().getColor().getName());
     }
 }

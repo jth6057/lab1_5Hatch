@@ -5,9 +5,10 @@
  * Course: CMPSC 221
  * Author: Tanner Hatch
  * Date Developed: 10/25/2026
- * Last Date Changed: 10/25/2026
- * Revision: 1.0
+ * Last Date Changed: 10/26/2026
+ * Revision: 2.0
  */
+
 public class Rims {
     private int diameterInches;
     private Material material;
